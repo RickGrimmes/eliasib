@@ -18,7 +18,7 @@ const animation_3 = () => {
 
 //#region EFECTO PARALLAX
 window.onscroll = function () {
-   let position = window.pageYOffset || document.documentElement.scrollTop;
+   let position = window.scrollY || document.documentElement.scrollTop;
    let img_hamburger_1 = document.getElementById("img_hamburger_1");
    let section_hamburgers = document.getElementById("section_hamburgers");
 }
